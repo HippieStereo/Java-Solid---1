@@ -20,19 +20,23 @@ public class MainProg {
 		
 		user.lastName = scanner.nextLine();
 		
-		if((user.firstName == null || 
+		while((user.firstName == null || 
 			user.firstName.isBlank() ||
 			user.firstName.isEmpty())) {
 			
-			System.out.println("You did not give us a valid first name");
+			System.out.println("You did not give us a valid first name ; try again");
+			
+			user.firstName = scanner.nextLine();
 			
 		}
 
-		if((user.lastName == null || 
+		while((user.lastName == null || 
 				user.lastName.isBlank() ||
 				user.lastName.isEmpty())) {
 				
-			System.out.println("You did not give us a valid last name");
+			System.out.println("You did not give us a valid last name ; try again");
+			
+			user.lastName = scanner.nextLine();
 				
 		}
 		
