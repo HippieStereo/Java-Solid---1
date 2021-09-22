@@ -1,4 +1,4 @@
-package eu.jlpc;
+package eu.jlpc.srp;
 
 import java.util.Scanner;
 
