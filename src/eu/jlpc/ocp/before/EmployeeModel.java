@@ -1,4 +1,4 @@
-package eu.jlpc.ocp;
+package eu.jlpc.ocp.before;
 
 public class EmployeeModel {
 	

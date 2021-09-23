@@ -1,4 +1,4 @@
-package eu.jlpc.ocp;
+package eu.jlpc.ocp.before;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +27,8 @@ public class MainProg {
 		
 		for(EmployeeModel emp : employees) {
 			
-			System.out.println(String.format("%s %s %s", emp.firstName, emp.lastName, emp.emailAddress));
+			System.out.println(String.format("%s : %s : %s", 
+					emp.firstName, emp.lastName, emp.emailAddress));
 			
 		}
 			    

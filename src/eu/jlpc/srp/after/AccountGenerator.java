@@ -1,4 +1,4 @@
-package eu.jlpc.srp;
+package eu.jlpc.srp.after;
 
 public class AccountGenerator {
 	
