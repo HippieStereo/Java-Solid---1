@@ -1,17 +1,17 @@
-package eu.jlpc.lsp.before;
+package eu.jlpc.lsp.after;
 
 public class MainProg {
 
 	public static void main(String[] args) throws Exception {
-		
-		Manager accoutingVP = new Manager();
-		
-		accoutingVP.firstName = "Emma";
-		accoutingVP.lastName = "Stone";
-		accoutingVP.calculatePerHourRate(4);
-		
+
+		IManager accoutingVP = new Manager();
+
+		((Manager)accoutingVP).firstName = "Emma";
+		((Manager)accoutingVP).lastName = "Stone";
+		((Manager)accoutingVP).calculatePerHourRate(4);
+
 		Employee emp_1 = new Employee();
-		
+
 		emp_1.firstName = "First name";
 		emp_1.lastName = "Last lame";
 		emp_1.assignManager(accoutingVP);
