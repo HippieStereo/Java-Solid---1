@@ -14,7 +14,7 @@ public class Chore {
 		
 	}
 
-	public void PerformedWork(double hours){
+	public void performedWork(double hours){
         
     	hoursWorked += hours;
     	
@@ -23,7 +23,7 @@ public class Chore {
         
     }
 
-    public void CompleteChore(){
+    public void completeChore(){
 
     	isComplete = true;
 
@@ -31,7 +31,7 @@ public class Chore {
         log.log("Completed " +  choreName);
 
         Emailer emailer = new Emailer();
-        emailer.SendEmail(owner, String.format("The chore %s is complete.", choreName));
+        emailer.sendEmail(owner, String.format("The chore %s is complete.", choreName));
         
     }
     

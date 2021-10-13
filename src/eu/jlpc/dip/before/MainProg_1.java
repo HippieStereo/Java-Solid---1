@@ -16,9 +16,9 @@ public class MainProg_1 {
             owner
         );
 
-        chore.PerformedWork(3);
-        chore.PerformedWork(1.5);
-        chore.CompleteChore();
+        chore.performedWork(3);
+        chore.performedWork(1.5);
+        chore.completeChore();
         
 	}
 
