@@ -1,21 +1,45 @@
-# Java Solid
+# SOLID -> READ
 
-- Design Patterns: Single Responsibility Principle Explained Practically in C# (The S in SOLID)
+- Single Responsibility Principle
+	
+	https://stackify.com/solid-design-principles/
+	
+# SOLID -> Videos in C# -> Code in JAVA
 
-	https://www.youtube.com/watch?v=5RwhyZnVRS8
+- Design Patterns & Principles
 
-- Design Patterns: Open Closed Principle Explained Practically in C# (The O in SOLID)
+	https://www.youtube.com/playlist?list=PLLWMQd6PeGY3ob0Ga6vn1czFZfW6e-FLr
+	
+# (The S in SOLID) - Single Responsibility Principle
 
-	https://www.youtube.com/watch?v=VFlk43QGEgc
+- A class should only be responsible for one thing
+- There's a place for everything and everything id in its place
+- Find on reason to change and and take everything else out of the class
+- Very precise names for small classes
+- Generic names for large classes
 
-- Design Patterns: Liskov Substitution Principle Explained Practically in C# (The L in SOLID)
+# (The O in SOLID) - Open/Closed Principle
 
-	https://www.youtube.com/watch?v=-3UXq2krhyw
+- Open for extension, but closed for modification
+- Software entities (classes, modules, functions, etc.)
+- Extend functionality by adding new code instead of changing existing code
+- Separate the behaviors so the system can easily be extended but never broken
 
-- Design Patterns: Interface Segregation Principle Explained Practically in C# (The I in SOLID)
+# (The L in SOLID) - Liskov Substitution Principle
 
-	https://www.youtube.com/watch?v=y1JiMGP51NE
+- Any derived class should be able to substitute its parent without the consumer knowing it
+- Every class that implements a interface must be able to substitute any reference throughout the code that implements the same interface
+- Every part of the code should get the expected result no matter what instance of a class you send to it given it implements the same interface
 
-- Design Patterns: Dependency Inversion Principle Explained Practically in C# (The D in SOLID)
+# (The I in SOLID) - Interface Segregation Principle
 
-	https://www.youtube.com/watch?v=NnZZMkwI6KI
+- A client should never be forced to depend on methods it doesn't use
+- A client should never depend on anything more than the methods it's calling
+- Changing one method in a class shouldn't affect classes that don't depend on it
+- Replace fat interfaces with with many small specific interfaces
+
+# (The D in SOLID) - Dependency Inversion Principle
+
+- Never depend on anything concrete, only depend on abstractions
+- High level modules should not depend on low level modules. They should depend on abstractions
+- Able to change a implementation easily without altering the high level code
